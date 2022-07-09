@@ -1,0 +1,463 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.loginPage {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  z-index: 10000;
+  margin-top: -9vw;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+}
+.loginPage .loginLeft {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 63.2vw;
+  width: 50%;
+  height: 90vh;
+  padding-left: 4vw;
+  padding-top: 5vh;
+  background-color: #ffffff;
+  padding-bottom: 2.2vw;
+}
+.loginPage .loginLeft .companyLogo {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.loginPage .loginLeft .companyLogo .logoimage {
+  padding: 0;
+  margin: 0;
+  height: 4vh;
+  width: 2vw;
+}
+.loginPage .loginLeft .companyLogo .companyName {
+  padding: 0;
+  margin: 0;
+  font-family: "Aileron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #252529;
+  margin-left: 0.33vw;
+}
+.loginPage .loginLeft .centralContent {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  margin-top: 15vh;
+  width: 100%;
+}
+.loginPage .loginLeft .centralContent .centralContetnItems {
+  padding: 0;
+  margin: 0;
+  width: 29vw;
+}
+.loginPage .loginLeft .centralContent .centralContetnItems .tagLine {
+  padding: 0;
+  margin: 0;
+  color: #9a9b9e;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.loginPage .loginLeft .centralContent .centralContetnItems .loginAccountText {
+  padding: 0;
+  margin: 0;
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #252529;
+  font-size: 25px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+}
+.loginPage .loginLeft .centralContent .emailPasswordForm {
+  padding: 0;
+  margin: 0;
+}
+.loginPage .loginLeft .centralContent  .hide {
+
+  display: none;
+}
+.loginPage .loginLeft .centralContent .emailPasswordForm .email {
+  padding: 0;
+  margin: 0;
+  margin-top: 2.5vh;
+}
+.loginPage .loginLeft .centralContent .emailPasswordForm .email .label {
+  padding: 0;
+  margin: 0 0 0 10px;
+  color: #87888a;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  line-height: 15px;
+  letter-spacing: 0.8px;
+}
+.loginPage .loginLeft .centralContent .emailPasswordForm .email .field {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 1.5vh;
+  background: #ffffff;
+  /* border: 1px solid #dfe2e6; */
+  border: 1.9px solid #f0f1f5;
+
+  box-sizing: border-box;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  width: 100%;
+  height: 40px;
+}
+.loginPage
+  .loginLeft
+  .centralContent
+  .emailPasswordForm
+  .email
+  .field
+  .emailIcon {
+  padding: 0;
+  margin: 0;
+  margin-left: 1vw;
+}
+.loginPage
+  .loginLeft
+  .centralContent
+  .emailPasswordForm
+  .email
+  .field
+  .emailIconEye {
+  padding: 0;
+  margin: 0;
+  margin-left: 0.5vw;
+}
+.loginPage
+  .loginLeft
+  .centralContent
+  .emailPasswordForm
+  .email
+  .field
+  .emailInputField {
+  padding: 0;
+  margin: 0;
+  margin-left: 1vw;
+  height: 36px;
+  width: 23vw;
+  /* border: none; */
+  border-bottom: 1.9px solid #f0f1f5;
+  border-top: 1.9px solid #f0f1f5;
+  /* font-size: 0.7rem; */
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.emailIcon-div {
+  font-size: 0.7rem;
+}
+.emailInputField::placeholder {
+  color: #d8d9de;
+  font-size: 0.7rem;
+}
+.loginPage
+  .loginLeft
+  .centralContent
+  .emailPasswordForm
+  .loginRegistrationButton {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3.33vh;
+}
+.loginPage
+  .loginLeft
+  .centralContent
+  .emailPasswordForm
+  .loginRegistrationButton
+  .register {
+  padding: 0;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.0001);
+  border: 3px solid #007aff;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 13.33vw;
+  height: 40px;
+  color: #007aff;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  line-height: 15px;
+  letter-spacing: 1px;
+}
+.loginPage
+  .loginLeft
+  .centralContent
+  .emailPasswordForm
+  .loginRegistrationButton
+  .loginSubmit {
+  padding: 0;
+  margin: 0;
+  background: #007aff;
+  border: 2px solid #007aff;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 13.33vw;
+  height: 40px;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  line-height: 15px;
+  letter-spacing: 0.8px;
+  box-shadow: 0 0 20px;
+  cursor: pointer;
+}
+
+.loginPage
+  .loginLeft
+  .centralContent
+  .emailPasswordForm
+  .rememberForgetButtons {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.5vh;
+  font-family: "Roboto", sans-serif;
+}
+.loginPage
+  .loginLeft
+  .centralContent
+  .emailPasswordForm
+  .rememberForgetButtons
+  .rememberMe {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.loginPage
+  .loginLeft
+  .centralContent
+  .emailPasswordForm
+  .rememberForgetButtons
+  .rememberMe
+  .checkbox {
+  padding: 0;
+  margin: 0;
+  height: 18px;
+  width: 18px;
+  border: none;
+  /* border: 1px solid #dfe2e6; */
+  /* border: 1.9px solid #f0f1f5; */
+}
+
+.rememberMe input {
+  border: #c53126;
+}
+.loginPage
+  .loginLeft
+  .centralContent
+  .emailPasswordForm
+  .rememberForgetButtons
+  .rememberMe
+  .rememberMeText {
+  padding: 0;
+  margin: 0;
+  color: #6b6c6f;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  line-height: 21px;
+  margin-left: 1.2vw;
+}
+.loginPage
+  .loginLeft
+  .centralContent
+  .emailPasswordForm
+  .rememberForgetButtons
+  .forgetPasswordLink {
+  padding: 0;
+  margin: 0;
+  color: #d8d8dc;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  line-height: 21px;
+  text-decoration: none;
+}
+.loginPage
+  .loginLeft
+  .centralContent
+  .emailPasswordForm
+  .rememberForgetButtons
+  .forgetPasswordLink:hover {
+  padding: 0;
+  margin: 0;
+  color: #007aff;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  line-height: 21px;
+  text-decoration: none;
+}
+.loginPage .loginLeft .centralContent .emailPasswordForm .or {
+  padding: 0;
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.or text {
+  display: grid;
+  place-items: center;
+}
+.or-bar {
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+.or-bar-cnt {
+  width: 150px;
+  height: 1px;
+  background-color: #e6e6e6;
+}
+.loginPage .loginLeft .centralContent .emailPasswordForm .or .text {
+  padding: 0;
+  margin: 0;
+  color: #6b6c6f;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  /* line-height: 21px;
+  margin-left: 1.2vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh; */
+}
+.loginPage .loginLeft .bottom {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-main {
+  height: 4rem;
+  display: grid;
+  place-items: center;
+}
+.loginPage .loginLeft .bottom .contactSupport {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #6d6d6d;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.loginPage .loginLeft .bottom .privacyPolicy {
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #6d6d6d;
+  margin-right: 4vw;
+  cursor: pointer;
+}
+.loginRight {
+  padding: 0;
+  margin: 0;
+  width: 50%;
+  height: 105vh;
+  width: 50vw;
+  padding-top: 7vh;
+  padding-bottom: 15vh;
+  background-color: #007aff;
+}
+.loginRight .rightIamge {
+  padding: 0;
+  margin: 0;
+  height: 101vh;
+  width: 50vw;
+  background-color: #007aff;
+}
+.googleLogin {
+  padding: 0;
+  margin: 0;
+  margin-top: 6vh;
+  display: grid;
+  place-items: center;
+}
+.googleLogin .googleButton {
+  padding: 0;
+  margin: 0;
+  border: none;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  cursor: pointer;
+}
+.googleLogin .googleButton .iconGoogle {
+  padding: 0;
+  margin: 0;
+  background: #c53126;
+  border-radius: 8px 0px 0px 8px;
+  padding: 1.5vw;
+  height: 4vw;
+}
+.googleLogin .googleButton .googleButtontext {
+  padding: 0;
+  margin: 0;
+  background: #f44336;
+  border-radius: 0 8px 8px 0;
+  padding-left: 2vw;
+  padding-top: 1vw;
+  padding-right: 2vw;
+  padding-bottom: 1.5vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  height: 4vw;
+  letter-spacing: 1.2px;
+}
+input {
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+input::-moz-focus-inner {
+  border: 0;
+}
