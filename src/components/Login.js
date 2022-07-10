@@ -339,39 +339,11 @@ function Login() {
                 id="emailPasswordForm"
                 className="emailPasswordForm"
               >
-                {/* <div className="loginRegistrationButton">
-                  {/* <button type="submit" className="register">
-                    Register
-                  </button> 
-                  <button
-                    onClick={() => {
-                     setchange(!change);
-                    }}
-                    type="submit"
-                    className="loginSubmit"
-                  >
-                    Login As Admin
-                  </button>
-                </div> */}
-              
               </form>
               <br />
-              {/*    <button className='reset' style={buttonStyle} onClick={()=>{setadmin(!admin)
-                        if(admin){
-                            settype("Vendor")
-                        }
-                        else{
-                            settype("Admin")
-                        }
-                        }}>
-                                        <p className="text">Login As {type}</p>
-                                    </button> */}
-              {/* <div style={{backgroundColor:'red',height:"100px"}}>
-                <GoogleSvg fill='red'  style={{height:"20px", width:"20px"}}/>he
-                </div> */}
             </div>
           </div>
-          <div style={{paddingTop: "27vw"}} className="bottom-main">
+          <div  className="bottom-main">
             <div className="bottom">
               <p className="contactSupport">Contact Support</p>
               <p className="privacyPolicy">Privacy Policy</p>
@@ -380,7 +352,6 @@ function Login() {
         </div>
         <div className="loginRight">
           <img src={Logo} alt="prod" className='rightIamge' />
-         {/*  <YourSvg className="rightIamge" /> */}
         </div>
       </div>
     </>

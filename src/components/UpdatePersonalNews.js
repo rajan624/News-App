@@ -98,7 +98,8 @@ function UpdatePersonalNews() {
       time:Timestamp.fromDate(new Date()),
       url:refernce,
       rejected:false,
-      reason:""
+      reason:"",
+      Comment:[]
    };
  await addDoc(collection(db, "PersonalNews"),docData).then(()=>{
 alert("News Update successfully");

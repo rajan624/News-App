@@ -3,7 +3,7 @@ import NewsItems from "./Newsitems";
 import Spinner from "./Spinner";
 import PropTypes from "prop-types";
 import NavBar from './NavBar';
-
+import background from "./Bg.jpg";
 
 
 export class News extends Component {
@@ -99,12 +99,19 @@ export class News extends Component {
     
   }
 
-  
   render() {
+    const myStyle={
+      backgroundImage: `url(${background})`,
+      height:'100vh',
+      marginTop:'-70px',
+      fontSize:'50px',
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat',
+  };
     return (
       <>
       <NavBar/>
-      <div className="container">
+      <div /* style={myStyle} */ className="container">
         <h1 className="text-center " style={{ margin: "35px" }}>
          Category - {this.capitalizeFirstLetter(this.props.category)}
         </h1>
