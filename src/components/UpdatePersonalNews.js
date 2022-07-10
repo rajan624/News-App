@@ -112,7 +112,7 @@ alert("News Update successfully");
 }
    }
   return (
-    <>
+    < div style={{background: "linear-gradient(to right, rgb(116, 116, 191), rgb(52, 138, 199))" , marginTop:"-4vw"}} >
     <NavBar/>
     <div className="container">
     <h1 className="text-center " style={{ margin: "35px" }}>
@@ -127,7 +127,7 @@ alert("News Update successfully");
     <div className="row ">
     {Details.map((details, i) => {
         return (
-        <div className="col-md-4 my-2 ">
+        <div style={{background: "linear-gradient(to right, rgb(95, 44, 130), rgb(73, 160, 157))"}} className="col-md-4 my-2 ">
     <div className="card" >
       <img src={details.ImageUrl==""?defaultUrl:details.ImageUrl} className="card-img-top" alt="..."/>
       <div className="card-body">
@@ -146,7 +146,8 @@ alert("News Update successfully");
           <Dialog onClose={handleClose} open={Open} style={{padding:"30px"}} PaperProps={{style:{
         borderRadius: "20px",
         height:"779px", padding:"10px",
-        width:"700px"
+        width:"700px",
+        background: "linear-gradient(to right, rgb(239, 239, 187), rgb(212, 211, 221))"
       }}}>
           <DialogTitle sx={{fontSize:24,color:"#308efe",fontWeight:"bold"}}>Upload News</DialogTitle>
           <DialogContent>
@@ -174,7 +175,7 @@ alert("News Update successfully");
             <Button sx={{color:"red"}}onClick={handleClose}  >Cancel</Button></DialogActions>
       </Dialog>
     </div>
-    </>
+    </div>
   )
 }
 

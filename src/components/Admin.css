@@ -18,7 +18,7 @@
     width: 100%;
 }
 .content-table thead tr{
-    background-color: #308efe;
+background: linear-gradient(to right, rgb(116, 116, 191), rgb(52, 138, 199));
     color: white;
     font-size: 17;
     text-align: center;

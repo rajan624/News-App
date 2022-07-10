@@ -60,7 +60,7 @@ function PersonalNews() {
         setcommment(commment => commment.concat(query));
     } */
   return (
-    <>
+    <div style={{background: "linear-gradient(to right, rgb(237, 66, 100), rgb(255, 237, 188))" , marginTop:"-4vw"}}>
     <NavBar/>
     <div className="container">
     <h1 className="text-center " style={{ margin: "35px" }}>
@@ -73,7 +73,7 @@ function PersonalNews() {
     <div className="row ">
     {Details.map((details, i) => {
         return (
-        <div style={{display:details.allow?"":"none"}} className="col-md-4 my-2 ">
+        <div style={{display:details.allow?"":"none" ,background: "linear-gradient(to right, rgb(95, 44, 130), rgb(73, 160, 157))"}} className="col-md-4 my-2 ">
     <div className="card" >
       <img src={details.ImageUrl==""?defaultUrl:details.ImageUrl} className="card-img-top" alt="..."/>
       <div className="card-body">
@@ -130,7 +130,7 @@ function PersonalNews() {
         <DialogActions><Button type="submit" onClick={updateDataOnFirebase} >Submit</Button>
             <Button sx={{color:"red"}}onClick={handleClose}  >Cancel</Button></DialogActions>
       </Dialog>
-    </>
+    </div>
   )
 }
 

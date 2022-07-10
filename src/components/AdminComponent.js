@@ -88,13 +88,13 @@ function AdminComponent() {
     } 
   }
   return (
-    <div className="App">
+    <div  className="App">
     <NavBar/>
       <h2>User News Data</h2>
-      <div className="rounded mx-auto d-block">
+      <div style={{background: "linear-gradient(to right, rgb(116, 116, 191), rgb(52, 138, 199))",height:"38.5vw" }}  className="rounded mx-auto d-block">
      {loading && <Spinner />}
-   </div>
-      <table style={{width:"100%"}} className='content-table'>
+   
+      <table style={{width:"100%" ,background: "linear-gradient(to right, rgb(116, 116, 191), rgb(52, 138, 199))"}} className='content-table'>
         <thead>
           <tr style={{ borderCollapse: "collapse", width: "10%" }}>
             <th style={{ borderCollapse: "collapse", width: "5%" }}>S No.</th>
@@ -123,6 +123,7 @@ function AdminComponent() {
           })}
         </tbody>
       </table>
+      </div>
       <Dialog onClose={handleClose} open={Open} style={{padding:"30px"}} PaperProps={{style:{
         borderRadius: "20px",
         height:"779px", padding:"10px",

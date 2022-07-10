@@ -109,9 +109,9 @@ export class News extends Component {
       backgroundRepeat: 'no-repeat',
   };
     return (
-      <>
+      <div style={{background: "linear-gradient(to right, rgb(61, 126, 170), rgb(255, 228, 122))" ,marginTop:"-4vw"}}>
       <NavBar/>
-      <div /* style={myStyle} */ className="container">
+      <div  className="container">
         <h1 className="text-center " style={{ margin: "35px" }}>
          Category - {this.capitalizeFirstLetter(this.props.category)}
         </h1>
@@ -143,7 +143,7 @@ export class News extends Component {
           <button type="button" disabled={this.state.page + 1 > Math.ceil(this.state.totalResults/this.props.pageSize)} onClick={this.handleNextButton} className="btn btn-dark">Next &rarr;</button>
         </div>        
       </div>
-      </>
+      </div>
     );
   }
 }

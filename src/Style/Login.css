@@ -4,6 +4,7 @@
   margin: 0;
   position: relative;
   z-index: 10000;
+  height: 50.8vw;
   margin-top: -9vw;
   display: flex;
   justify-content: left;
@@ -410,17 +411,20 @@
 }
 .googleLogin .googleButton {
   padding: 0;
-  margin: 0;
-  border: none;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  cursor: pointer;
+    margin: 0;
+    border: none;
+    display: flex;
+    justify-content: left;
+    background: linear-gradient(to right, rgb(54, 0, 51), rgb(11, 135, 147));
+    align-items: center;
+    cursor: pointer;
+    /* border: 2px solid; */
+    color: white;
+    box-shadow: 0 0 20px;
 }
 .googleLogin .googleButton .iconGoogle {
   padding: 0;
   margin: 0;
-  background: #c53126;
   border-radius: 8px 0px 0px 8px;
   padding: 1.5vw;
   height: 4vw;
@@ -428,10 +432,9 @@
 .googleLogin .googleButton .googleButtontext {
   padding: 0;
   margin: 0;
-  background: #f44336;
   border-radius: 0 8px 8px 0;
   padding-left: 2vw;
-  padding-top: 1vw;
+  padding-top: 1.5vw;
   padding-right: 2vw;
   padding-bottom: 1.5vw;
   font-family: "Roboto", sans-serif;
@@ -460,4 +463,21 @@ input:focus {
 }
 input::-moz-focus-inner {
   border: 0;
+}
+.for{
+  padding: 0;
+    margin: 0;
+    background: #007aff;
+    border: 2px solid #007aff;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 13.33vw;
+    height: 40px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    line-height: 15px;
+    letter-spacing: 0.8px;
+    box-shadow: 0 0 20px;
+    cursor: pointer;
 }

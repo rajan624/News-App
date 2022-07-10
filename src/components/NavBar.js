@@ -35,7 +35,7 @@ function NavBar() {
   },[])
   return (
     <div>
-        <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
+        <nav style={{background: "linear-gradient(to right, rgb(92, 37, 141), rgb(67, 137, 162))"}} className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
             <div className="container-fluid">
                 <Link className="navbar-brand" to="/general">NewsApp</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -178,10 +178,10 @@ function Login() {
     document.getElementById("emailInputField").focus();
   };
   return (
-    <>
+    <div style={{background: "linear-gradient(to right, rgb(54, 0, 51), rgb(11, 135, 147))"}}>
       {/* <YourSvg color='red' fill='blue' /> */}
-      <div className="loginPage">
-        <div className="loginLeft">
+      <div style={{background: "linear-gradient(to right, rgb(54, 0, 51), rgb(11, 135, 147))"}} className="loginPage">
+        <div style={{background: "linear-gradient(to right, rgb(54, 0, 51), rgb(11, 135, 147))"}} className="loginLeft">
           <div className="companyLogo">
             {/* <img src={product} alt="logo" className='logoimage'/>
                     <p className="companyName">
@@ -191,8 +191,8 @@ function Login() {
           </div>
           <div  className="centralContent">
             <div className="centralContetnItems">
-              <p style={{fontSize:"15px", fontWeight:" 200px", color:"blue"}} className="tagLine">START YOUR EXPERIENCE WITH OneTouch</p>
-              <p className="loginAccountText">Login your account</p>
+              <p style={{fontSize:"15px", fontWeight:" 200px", color:"white"}} className="tagLine">START YOUR EXPERIENCE WITH OneTouch</p>
+              <p style={{color:"white"}} className="loginAccountText">Login your account</p>
               <form
                 onSubmit={formHandle}
                 id="emailPasswordForm"
@@ -217,7 +217,7 @@ function Login() {
                       }}
                     />
                   </div>
-                  {userNameError}
+                <span style={{color:"white"}} > {userNameError}</span> 
                 </div>
                 <div className="email">
                   <p className="label">Passoword</p>
@@ -250,7 +250,7 @@ function Login() {
                       />
                     </div>
                   </div>
-                  {passwordError}
+                 <span style={{color:"white"}}>{passwordError}</span> 
                 </div>
                 <div className="loginRegistrationButton">
                   {/* <button type="submit" className="register">
@@ -272,8 +272,8 @@ function Login() {
 
                     <p className="rememberMeText">Remember me</p>
                   </div>
-                  <a href="#" className="forgetPasswordLink">
-                    <button onClick={sendmail}>Forgot Password?</button>
+                  <a  href="#" className="forgetPasswordLink">
+                    <button className="for" style={{background: "linear-gradient(to right, rgb(54, 0, 51), rgb(11, 135, 147))" , color:"white"}} onClick={sendmail}>Forgot Password?</button>
                     
                   </a>
                 </div>
@@ -354,7 +354,7 @@ function Login() {
           <img src={Logo} alt="prod" className='rightIamge' />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
