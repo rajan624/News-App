@@ -21,7 +21,8 @@ function App() {
     cookies.set('One', '', { path: '/' });
     const Id = cookies.get('One');
     settype(Id);
-  },[])
+  }, [])
+  const cookies = new Cookies();
 
   return (
     <>
